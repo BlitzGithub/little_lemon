@@ -1,0 +1,43 @@
+.bookingWrapper {
+  width: 100vw;
+  height: 89vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bookingWrapper > h3 {
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.bookingForm {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+.bookingForm > button {
+  background-color: #d9d9d9;
+  border: none;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: black;
+  font-size: 15px;
+  letter-spacing: 3px;
+  border-radius: 13px;
+}
+.inputField {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+.inputField > input {
+  padding: 4%;
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+.navbarWrapper {
+  width: 100vw;
+  height: 10vh;
+  padding-bottom: 0.5%;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.companyLogo {
+  cursor: pointer;
+  width: 8%;
+  height: 100%;
+}
+
+.hamburger {
+  width: 2%;
+  margin-right: 2%;
+  cursor: pointer;
+}
